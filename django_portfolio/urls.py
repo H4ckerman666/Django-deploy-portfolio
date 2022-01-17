@@ -24,7 +24,7 @@ from portfolio import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',  views.home),
-    path('contacto',  views.contacto),
+    path('contacto',  views.contacto, name="contacto"),
     path('blog/', include('blog.urls'))
 ]
 
