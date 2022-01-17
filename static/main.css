@@ -1,10 +1,10 @@
 body {
   background: #090909;
-  overflow-x: hidden;
 }
 
 .bg-black {
   background: #000;
+  overflow-x: hidden;
 }
 
 .card-project:hover {
